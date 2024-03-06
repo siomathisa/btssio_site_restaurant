@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Librairie d'icônes pour le responsive -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Lien CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>VOTRE EVENEMENT | La Convivialité</title>
+</head>
+<body>
+
+
+    <div class="navbar" id="navbar">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html">Notre Carte</a>
+        <a href="reservation.html">Réserver Une Table</a>
+        <a href="evenement.html" class="active">Votre Evènement</a>
+        <a href="galerie.html">Galerie Photos</a>
+        <a href="contact.html">Nous Contacter</a>
+        <!-- Icône burger pour le responsive -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="main-event">
+        <h1>Organiser votre évènement à l'aide du formulaire ci-dessous</h1>
+        <h3>
+            Vous souhaitez organiser dans un cadre original et convivial un événement familial, professionnel, un séminaire ou tout autre rencontre ? <br>
+            Nous mettons à votre disposition notre bar restaurant et une salle de travail. Nous élaborons avec vous votre menu, ainsi qu’une animation en fonction de votre projet. <br>
+            N'hésitez pas à nous laisser toutes les informations nécessaires via le formulaire ci-dessous afin que nous puissions vous contacter au plus vite.
+        </h3>
+            <form action="https://formspree.io/f/xgegkldl" method="POST">
+                <label>
+                    Votre email :
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Votre message :
+                    <textarea name="message">Merci d'indiquer les éléments suivants : Nom, Prénom, Téléphone, Description et Date de l'évènement.</textarea>
+                </label>
+                <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="img-footer">
+            <a href="https://www.facebook.com/people/Restaurant-La-convivialit%C3%A9/61550614718427/"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/restaurantlaconvivialite/"><img src="images/instagram.webp" alt="instagram"></a>
+            <a href="https://twitter.com/RestoLaConv"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://api.whatsapp.com/send?phone=668724922"><img src="images/whatsapp.png" alt="whatsapp"></a>
+        </div>
+    </footer>
+
+    <!-- Lien Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
